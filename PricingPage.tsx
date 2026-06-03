@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Check, Zap, Building2, Sparkles, X } from 'lucide-react';
-import { useAuth } from '../contexts/AuthContext';
-import { supabase } from '../lib/supabase';
+import { useAuth } from '../AuthContext';
+import { supabase } from '../supabase';
 
 interface PricingPageProps {
   onNavigate: (page: string) => void;
