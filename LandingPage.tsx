@@ -1,6 +1,6 @@
 import React from 'react';
 import { Search, BarChart2, Zap, ArrowRight, Star, Shield, Globe } from 'lucide-react';
-import SellDropLogo from '../components/SellDropLogo';
+import SellDropLogo from '../SellDropLogo';
 
 interface LandingPageProps {
   onGetStarted: () => void;
