@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Search, Bookmark, LayoutDashboard, User, LogOut, Menu, X, ChevronRight, Zap } from 'lucide-react';
-import { useAuth } from '../contexts/AuthContext';
+import { useAuth } from '../AuthContext';
 import SellDropLogo from './SellDropLogo';
 
 interface SidebarProps {
