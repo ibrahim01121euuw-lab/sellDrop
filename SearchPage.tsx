@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { Search, SlidersHorizontal, X, TrendingUp, Lock } from 'lucide-react';
-import { useAuth } from '../contexts/AuthContext';
-import { supabase } from '../lib/supabase';
-import { MOCK_PRODUCTS, CATEGORIES, Product } from '../lib/mockData';
+import { useAuth } from '../AuthContext';
+import { supabase } from '../supabase';
 import ProductCard from '../components/ProductCard';
 
 interface SearchPageProps {
