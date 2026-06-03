@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { TrendingUp, Search, Bookmark, BarChart2, ArrowUpRight, Clock, Flame, ChevronRight } from 'lucide-react';
-import { useAuth } from '../contexts/AuthContext';
-import { supabase, Search as SearchRecord } from '../lib/supabase';
-import { MOCK_PRODUCTS, Product } from '../lib/mockData';
-
+import { useAuth } from '../AuthContext';
+import { supabase, Search as SearchRecord } from '../supabase';
 interface DashboardProps {
   onNavigate: (page: string, productId?: string) => void;
 }
