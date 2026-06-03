@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Lock, Eye, EyeOff, ArrowRight } from 'lucide-react';
-import { useAuth } from '../contexts/AuthContext';
-import SellDropLogo from '../components/SellDropLogo';
+import { useAuth } from '../AuthContext';
+import SellDropLogo from '../SellDropLogo';
 
 interface AuthPageProps {
   onNavigate: (page: string) => void;
