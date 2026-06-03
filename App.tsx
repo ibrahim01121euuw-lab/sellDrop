@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { AuthProvider, useAuth } from './AuthContext';
 import { supabase, SavedProduct } from './supabase';
-import { Product } from './lib/mockData';
 import LandingPage from './pages/LandingPage';
 import AuthPage from './pages/AuthPage';
 import Dashboard from './pages/Dashboard';
