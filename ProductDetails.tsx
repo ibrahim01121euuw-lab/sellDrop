@@ -1,6 +1,5 @@
 import React from 'react';
 import { ArrowLeft, Star, TrendingUp, ShoppingCart, BarChart2, Bookmark, ExternalLink, Globe, Award, ThumbsUp } from 'lucide-react';
-import { MOCK_PRODUCTS, Product } from '../lib/mockData';
 
 interface ProductDetailsProps {
   productId: string;
