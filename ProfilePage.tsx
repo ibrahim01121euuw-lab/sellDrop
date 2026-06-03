@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { User, Mail, Shield, CreditCard, Check, Camera, Calendar } from 'lucide-react';
-import { useAuth } from '../contexts/AuthContext';
-import { supabase } from '../lib/supabase';
+import { useAuth } from '../AuthContext';
+import { supabase } from '../supabase';
 
 export default function ProfilePage() {
   const { profile, refreshProfile } = useAuth();
