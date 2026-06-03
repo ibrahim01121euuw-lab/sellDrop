@@ -1,6 +1,5 @@
 import React from 'react';
 import { TrendingUp, Star, Bookmark, ShoppingCart, BarChart2 } from 'lucide-react';
-import { Product } from '../lib/mockData';
 
 interface ProductCardProps {
   product: Product;
