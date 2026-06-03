@@ -1,6 +1,6 @@
 import React from 'react';
 import { Bookmark, TrendingUp, Search, Trash2, Star } from 'lucide-react';
-import { SavedProduct } from '../lib/supabase';
+import { SavedProduct } from '../supabase';
 
 interface SavedProductsProps {
   savedProducts: SavedProduct[];
