@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { AuthProvider, useAuth } from './AuthContext';
 import { supabase, SavedProduct } from './supabase';
-import LandingPage from './pages/LandingPage';
-import AuthPage from './pages/AuthPage';
-import Dashboard from './pages/Dashboard';
-import SearchPage from './pages/SearchPage';
-import ProductDetails from './pages/ProductDetails';
-import SavedProducts from './pages/SavedProducts';
-import PricingPage from './pages/PricingPage';
-import ProfilePage from './pages/ProfilePage';
+import LandingPage from './LandingPage';
+import AuthPage from './AuthPage';
+import Dashboard from './Dashboard';
+import SearchPage from './SearchPage';
+import ProductDetails from './ProductDetails';
+import SavedProducts from './SavedProducts';
+import PricingPage from './PricingPage';
+import ProfilePage from './ProfilePage';
 import Sidebar from './Sidebar';
 import SellDropLogo from './SellDropLogo';
 
