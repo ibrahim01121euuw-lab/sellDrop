@@ -9,8 +9,8 @@ import ProductDetails from './pages/ProductDetails';
 import SavedProducts from './pages/SavedProducts';
 import PricingPage from './pages/PricingPage';
 import ProfilePage from './pages/ProfilePage';
-import Sidebar from './components/Sidebar';
-import SellDropLogo from './components/SellDropLogo';
+import Sidebar from './Sidebar';
+import SellDropLogo from './SellDropLogo';
 
 type Page = 'landing' | 'auth' | 'dashboard' | 'search' | 'product' | 'saved' | 'pricing' | 'profile';
 
